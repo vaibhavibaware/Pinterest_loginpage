@@ -1,0 +1,146 @@
+* {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.logo {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+}
+
+.info {
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(76, 75, 75);
+    text-align: left;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 0 15px;
+    font-size: 16px;
+    margin-top: 10px;
+    outline: none;
+    text-align: left;
+}
+
+input:focus {
+    border-color: #0073e6;
+    box-shadow: 0 0 5px rgba(0, 115, 230, 0.5);
+}
+
+.continue {
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin-top: 15px;
+    border-radius: 25px;
+    height: 50px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.continue:hover {
+    background-color: #d40000;
+}
+
+.or {
+    margin: 7px 7px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.facebook,
+.google {
+    border: none;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.facebook {
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+}
+
+.facebook:hover {
+    background-color: #145dbf;
+}
+
+.google {
+    background-color: rgb(235, 235, 245);
+    color: rgb(31, 31, 31);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.google:hover {
+    background-color: #e0e0e0;
+}
+
+.light {
+    font-weight: 200;
+    color: rgb(183, 166, 166);
+}
+
+.black {
+    font-weight: bold;
+}
+
+.icon-face {
+    width: 25px;
+    border-radius:40px;
+    margin-right: 10px;
+    margin-left:  -220px;
+    margin-bottom:-45px;
+    display: inline-block;
+}
+.icon-google {
+    width: 45px;
+    border-radius:40px;
+    margin-right: 10px;
+    margin-left:  -220px;
+    margin-bottom:-45px;
+    display: inline-block;
+
+}
+
+.acc {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(15, 14, 14);
+    width: 350px;
+    height: 55px;
+    border: none;
+}
